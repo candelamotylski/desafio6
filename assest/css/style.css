@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* FUENTES TIPOGRAFICAS */
+@font-face {
+  font-family: "fanwood";
+  src: url("../fanwood/fanwood.regular.ttf");
+}
+@font-face {
+  font-family: "fanwood-italic";
+  src: url("../fanwood/fanwood.italic.ttf");
+}
+/*VARIABLES COLORES*/
+/*VARIABLES TIPOGRAFÍA*/
+/*MENU*/
+.nav {
+  background-color: #F0E7D9;
+}
+.nav .logo {
+  width: 15%;
+  height: auto;
+}
+.nav .item {
+  font-family: "Montserrat", sans-serif;
+  color: #484848;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #292929;
+  padding: 0.5%;
+}
+.footer .legales {
+  font-family: "Montserrat", sans-serif;
+  color: #F0E7D9;
+}
+
+/*SLIDER HOME*/
+.slider .titulo {
+  font-family: "Fanwood";
+  text-align: center;
+  color: #F0E7D9;
+}
+.slider .subtitulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #8DA47C;
+  text-align: center;
+}
+
+/*NUESTROS SERVICIOS*/
+.nuestros-servicios {
+  background-color: #F0E7D9;
+  padding: 5%;
+}
+.nuestros-servicios .imagen_home {
+  background-image: url(../img/Home_gestoria.png);
+}
+.nuestros-servicios .imagen_home_2 {
+  background-image: url(../img/Home_servicios\ jurídicos.png);
+}
+.nuestros-servicios .subtitulo {
+  font-family: "Fanwood";
+  text-align: center;
+  color: #F0E7D9;
+  line-height: 100%;
+  margin-bottom: 30%;
+}
+
+/*NUESTRO ESTUDIO*/
+.estudio {
+  background-color: #5F774D;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.estudio .subtitulo {
+  font-family: "fanwood-italic";
+  color: #F0E7D9;
+  line-height: 100%;
+}
+.estudio .parrafo {
+  font-family: "Montserrat", sans-serif;
+  color: #F0E7D9;
+}
+
+/*OPINIONES*/
+.opiniones {
+  background-color: #F0E7D9;
+}
+.opiniones .subtitulo {
+  font-family: "Fanwood";
+  text-align: center;
+  color: #5F774D;
+  line-height: 100%;
+}
+.opiniones .nombres {
+  font-family: "Montserrat", sans-serif;
+  color: #5F774D;
+}
+.opiniones .parrafo {
+  font-family: "Montserrat", sans-serif;
+  color: #292929;
+}
+
+/*NEWSLETTER*/
+.newsletter {
+  background-color: #01406B;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.newsletter .subtitulo {
+  font-family: "Fanwood";
+  text-align: center;
+  color: #F0E7D9;
+}
+
+/*# sourceMappingURL=style.css.map */

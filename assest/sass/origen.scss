@@ -1,0 +1,145 @@
+/* FUENTES TIPOGRAFICAS */
+
+@font-face {
+    font-family: "fanwood";
+    src: url("../fanwood/fanwood.regular.ttf");
+    }
+
+@font-face {
+    font-family: "fanwood-italic";
+    src: url("../fanwood/fanwood.italic.ttf");
+    }
+
+/*VARIABLES COLORES*/
+$color-crema: #F0E7D9;
+$color-crema-oscuro:#909090;
+$color-bordo: #551725;
+$color-azul:  #01406B;
+$color-verde:  #5F774D;
+$color-verde-claro: #8DA47C;
+$color-gris: #484848;
+$color-gris-oscuro: #292929;
+
+/*VARIABLES TIPOGRAFÍA*/
+$fanwood: 'Fanwood';
+$fanwood-italica: 'fanwood-italic';
+$montserrat: 'Montserrat', sans-serif;
+
+/*MENU*/
+.nav{
+    background-color: $color-crema;
+
+    .logo{
+        width: 15%;
+        height: auto;
+    }
+
+    .item{
+        font-family: 'Montserrat', sans-serif;
+        color: $color-gris;
+    }
+}
+
+/*FOOTER*/
+.footer{
+    background-color: $color-gris-oscuro;
+    padding: 0.5%;
+
+    .legales{
+        font-family: 'Montserrat', sans-serif;
+        color: $color-crema;
+    }
+}
+
+/*SLIDER HOME*/
+
+.slider{
+    .titulo{
+        font-family: $fanwood; 
+        text-align: center;
+        color: $color-crema;
+    }
+    .subtitulo{
+        font-family: $montserrat; 
+        font-weight: 500;
+        color: $color-verde-claro;
+        text-align: center;
+    }
+}
+
+/*NUESTROS SERVICIOS*/
+.nuestros-servicios{
+    background-color: $color-crema;
+    padding: 5%;
+
+    .imagen_home{
+        background-image: url(../img/Home_gestoria.png);
+    }
+    
+    .imagen_home_2{
+        background-image: url(../img/Home_servicios\ jurídicos.png);
+    }
+    .subtitulo{
+        font-family: $fanwood; 
+        text-align: center;
+        color: $color-crema;
+        line-height:100%;
+        margin-bottom: 30%;
+    }
+}
+
+/*NUESTRO ESTUDIO*/
+
+.estudio{
+    background-color: $color-verde;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .subtitulo{
+        font-family: $fanwood-italica; 
+        color: $color-crema;
+        line-height:100%;
+    }
+    
+    .parrafo{
+        font-family: $montserrat;
+        color: $color-crema;
+    }
+}
+
+/*OPINIONES*/
+.opiniones{
+    background-color: $color-crema;
+
+    .subtitulo{
+        font-family: $fanwood; 
+        text-align: center;
+        color: $color-verde;
+        line-height:100%;
+    }
+
+    .nombres{
+        font-family: $montserrat; 
+        color: $color-verde;
+    }
+
+    .parrafo{
+        font-family: $montserrat; 
+        color: $color-gris-oscuro;
+    }
+}
+
+/*NEWSLETTER*/
+.newsletter{
+    background-color: $color-azul;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    .subtitulo{
+        font-family: $fanwood; 
+        text-align: center;
+        color: $color-crema;
+    }
+
+}
+
